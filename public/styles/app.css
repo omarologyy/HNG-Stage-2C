@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    background-color: #fff;
+}
+
+/* Top Banner */
+.top-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9f3ff;
+    color: #333;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    gap: 0.5rem;
+}
+.new-badge {
+    background: #a020f0;
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+.close-btn {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.logo-highlight {
+    color: #7b2cbf;
+}
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+.nav-buttons button {
+    border: 2px solid #7b2cbf;
+    background: none;
+    color: #7b2cbf;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+.signup-btn {
+    background: #7b2cbf;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: url("/public/images/wave.svg") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3rem 5%;
+    color: #fff;
+}
+.hero-text {
+    flex: 1 1 400px;
+    color: white;
+}
+.hero-text h1 {
+    font-size: 2.8rem;
+    color: #fff;
+}
+.hero-text h1 span {
+    color: #d5b4ff;
+}
+.hero-text p {
+    margin-top: 1rem;
+    max-width: 500px;
+}
+.hero-buttons {
+    margin-top: 2rem;
+}
+.primary-btn {
+    background: #7b2cbf;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.secondary-btn {
+    border: 2px solid #fff;
+    background: transparent;
+    color: white;
+    margin-left: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.hero-image {
+    flex: 1 1 400px;
+    text-align: center;
+}
+.hero-image img {
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Features */
+.features {
+    background: #f0f1f5;
+    padding: 4rem 5%;
+    text-align: center;
+}
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+}
+.card h3 {
+    margin-bottom: 1rem;
+}
+.card a {
+    color: #7b2cbf;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        display: none;
+    }
+}
